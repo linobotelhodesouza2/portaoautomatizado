@@ -1063,38 +1063,3 @@ figure {
     height: 768px;
   }
 }
-@media screen and (min-width: 399px) {
-  .fh5co-cover,
-  .fh5co-hero {
-    height: 340px;
-  }
-  .fh5co-cover .desc {
-    top: 80%;
-    position: absolute;
-    width: 100%;
-    margin-top: -80px;
-    z-index: 2;
-    color: #fff;
-  }
- h2{
-  display: none;
- } 
-}
-
-@media screen and (min-width: 468px) {
-  .fh5co-cover,
-  .fh5co-hero {
-    height: 340px;
-  }
-  .fh5co-cover .desc {
-    top: 10%;
-    position: absolute;
-    width: 100%;
-    margin-top: -80px;
-    z-index: 2;
-    color: #fff;
-  }
-  h2{
-  display: inline;
- } 
-}
