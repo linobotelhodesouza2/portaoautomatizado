@@ -72,11 +72,14 @@ figure {
 .fh5co-hero {
   position: relative;
   height: 800px;
+  /*border: 1px solid red;*/
 }
+
+
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 380px;/* deixando o banner do tamanho do celular */
+    height: 700px;
   }
 }
 .fh5co-cover.fh5co-hero-2,
@@ -110,6 +113,11 @@ figure {
   background-size: cover;
   position: relative;
 }
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     heifght: inherit;
@@ -131,7 +139,7 @@ figure {
   }
 }
 .fh5co-cover .desc {
-  top: 80%;
+  top: 50%;
   position: absolute;
   width: 100%;
   margin-top: -80px;
@@ -943,7 +951,7 @@ figure {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .col-xxs-12 {
     float: none;
     width: 100%;
@@ -1048,3 +1056,45 @@ figure {
   z-index:1000;
 }
 
+
+@media screen and (min-width: 768px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: 768px;
+  }
+}
+@media screen and (min-width: 399px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: 340px;
+  }
+  .fh5co-cover .desc {
+    top: 80%;
+    position: absolute;
+    width: 100%;
+    margin-top: -80px;
+    z-index: 2;
+    color: #fff;
+  }
+ h2{
+  display: none;
+ } 
+}
+
+@media screen and (min-width: 468px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: 340px;
+  }
+  .fh5co-cover .desc {
+    top: 10%;
+    position: absolute;
+    width: 100%;
+    margin-top: -80px;
+    z-index: 2;
+    color: #fff;
+  }
+  h2{
+  display: inline;
+ } 
+}
